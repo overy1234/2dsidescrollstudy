@@ -86,3 +86,10 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 0
+    functionName: RandDust
+    data: 
+    objectReferenceParameter: {fileID: 7544509527898579347, guid: 56905b9ca70cc2a4e9110ccb65c03ccb, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0

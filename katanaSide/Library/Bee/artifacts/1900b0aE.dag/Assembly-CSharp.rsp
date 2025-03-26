@@ -429,6 +429,8 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/Script/Hit_Lazer.cs"
+"Assets/Script/JumpDust.cs"
+"Assets/Script/LandDust.cs"
 "Assets/Script/Player.cs"
 "Assets/Script/Shadow.cs"
 "Assets/Script/Slash.cs"

@@ -109,7 +109,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -123,7 +123,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 70
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -214,20 +214,20 @@ TextureImporter:
       name: player_landdust_8x1_0
       rect:
         serializedVersion: 2
-        x: 17
+        x: 0
         y: 0
-        width: 32
-        height: 11
+        width: 82
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b8df72f2f221c79b0800000000000000
-      internalID: -5081166285716849269
+      spriteID: 6aa0e2f9ab112414bba88e97da03288b
+      internalID: 287878238
       vertices: []
       indices: 
       edges: []
@@ -236,20 +236,20 @@ TextureImporter:
       name: player_landdust_8x1_1
       rect:
         serializedVersion: 2
-        x: 21
-        y: 7
-        width: 8
-        height: 8
+        x: 82
+        y: 0
+        width: 82
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4d6683e370a5a9390800000000000000
-      internalID: -7810831616565549356
+      spriteID: 9582a48447a4ade40a6c9f2acea6f315
+      internalID: -344978795
       vertices: []
       indices: 
       edges: []
@@ -258,20 +258,20 @@ TextureImporter:
       name: player_landdust_8x1_2
       rect:
         serializedVersion: 2
-        x: 53
+        x: 164
         y: 0
-        width: 32
-        height: 11
+        width: 82
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9ae63fcf0a04130b0800000000000000
-      internalID: -5750744188992655703
+      spriteID: df9d819063e6ff54b84b2512685887a3
+      internalID: -105915890
       vertices: []
       indices: 
       edges: []
@@ -280,20 +280,20 @@ TextureImporter:
       name: player_landdust_8x1_3
       rect:
         serializedVersion: 2
-        x: 73
-        y: 7
-        width: 8
-        height: 8
+        x: 246
+        y: 0
+        width: 82
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d0fb0a9a26faf8d40800000000000000
-      internalID: 5588878500877614861
+      spriteID: cb02424b3b57e424b819c9268310e5c3
+      internalID: 696389088
       vertices: []
       indices: 
       edges: []
@@ -302,20 +302,20 @@ TextureImporter:
       name: player_landdust_8x1_4
       rect:
         serializedVersion: 2
-        x: 91
-        y: 9
-        width: 8
-        height: 6
+        x: 328
+        y: 0
+        width: 82
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 924e354a98b6aad20800000000000000
-      internalID: 3290560716659221545
+      spriteID: d2a74e1c85029374e8beeed5454e47f4
+      internalID: -1741962013
       vertices: []
       indices: 
       edges: []
@@ -324,20 +324,20 @@ TextureImporter:
       name: player_landdust_8x1_5
       rect:
         serializedVersion: 2
-        x: 93
+        x: 410
         y: 0
-        width: 22
-        height: 15
+        width: 82
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0d98574990f61ec70800000000000000
-      internalID: 8998595617399081424
+      spriteID: 004e1a2de49e5a84a92c9771db92232e
+      internalID: -151078975
       vertices: []
       indices: 
       edges: []
@@ -346,416 +346,20 @@ TextureImporter:
       name: player_landdust_8x1_6
       rect:
         serializedVersion: 2
-        x: 145
+        x: 492
         y: 0
-        width: 22
-        height: 15
+        width: 82
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ed0d43dff0ba5f780800000000000000
-      internalID: -8649819424134213410
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_landdust_8x1_7
-      rect:
-        serializedVersion: 2
-        x: 161
-        y: 9
-        width: 8
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1645a70ad81d62880800000000000000
-      internalID: -8635984829223381919
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_landdust_8x1_8
-      rect:
-        serializedVersion: 2
-        x: 171
-        y: 9
-        width: 12
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3f2f84331548dd220800000000000000
-      internalID: 2512309651430241011
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_landdust_8x1_9
-      rect:
-        serializedVersion: 2
-        x: 171
-        y: 0
-        width: 16
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 38d7681e4a9ae7180800000000000000
-      internalID: -9115662070127886973
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_landdust_8x1_10
-      rect:
-        serializedVersion: 2
-        x: 183
-        y: 7
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7cedd0e6cdd5e7790800000000000000
-      internalID: -7530478325596299577
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_landdust_8x1_11
-      rect:
-        serializedVersion: 2
-        x: 187
-        y: 0
-        width: 12
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a4302d4ad4f989940800000000000000
-      internalID: 5303163717055284042
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_landdust_8x1_12
-      rect:
-        serializedVersion: 2
-        x: 219
-        y: 0
-        width: 12
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5153159b755614af0800000000000000
-      internalID: -413938263295707883
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_landdust_8x1_13
-      rect:
-        serializedVersion: 2
-        x: 229
-        y: 7
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a1dc49476ae16de40800000000000000
-      internalID: 5680761680243772698
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_landdust_8x1_14
-      rect:
-        serializedVersion: 2
-        x: 231
-        y: 0
-        width: 16
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 30f82af7afc45a1a0800000000000000
-      internalID: -6798943423679000829
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_landdust_8x1_15
-      rect:
-        serializedVersion: 2
-        x: 235
-        y: 9
-        width: 12
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00529c8642161d730800000000000000
-      internalID: 4022102751223293184
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_landdust_8x1_16
-      rect:
-        serializedVersion: 2
-        x: 251
-        y: 3
-        width: 14
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 26d2c0ae7a0c532d0800000000000000
-      internalID: -3299519324560282270
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_landdust_8x1_17
-      rect:
-        serializedVersion: 2
-        x: 313
-        y: 3
-        width: 14
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9bc0211d63adf9120800000000000000
-      internalID: 2422895053519326393
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_landdust_8x1_18
-      rect:
-        serializedVersion: 2
-        x: 333
-        y: 3
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2557ebfb56ca3acd0800000000000000
-      internalID: -2548003411152964270
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_landdust_8x1_19
-      rect:
-        serializedVersion: 2
-        x: 397
-        y: 3
-        width: 18
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e2990ab2ba425c260800000000000000
-      internalID: 7117135103718889774
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_landdust_8x1_20
-      rect:
-        serializedVersion: 2
-        x: 483
-        y: 5
-        width: 88
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5000c4d65ab2f9220800000000000000
-      internalID: 2494760708089839621
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_landdust_8x1_21
-      rect:
-        serializedVersion: 2
-        x: 105
-        y: 0
-        width: 22
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2d994813749675950800000000000000
-      internalID: 6437729946843781586
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_landdust_8x1_22
-      rect:
-        serializedVersion: 2
-        x: 133
-        y: 0
-        width: 18
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 43bb130927e271e80800000000000000
-      internalID: -8208040726279111884
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_landdust_8x1_23
-      rect:
-        serializedVersion: 2
-        x: 259
-        y: 0
-        width: 8
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5ae8e40eee1d51df0800000000000000
-      internalID: -210030983707193691
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_landdust_8x1_24
-      rect:
-        serializedVersion: 2
-        x: 311
-        y: 0
-        width: 8
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 74e68dc44bae38320800000000000000
-      internalID: 2559147073380838983
+      spriteID: acb966c25a7fed242b90c31536fc7b57
+      internalID: 358783766
       vertices: []
       indices: 
       edges: []
@@ -764,7 +368,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 3cd93aa606dd30f4b85285fb8e871485
     internalID: 0
     vertices: []
     indices: 
@@ -773,7 +377,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      player_landdust_8x1_0: 287878238
+      player_landdust_8x1_1: -344978795
+      player_landdust_8x1_2: -105915890
+      player_landdust_8x1_3: 696389088
+      player_landdust_8x1_4: -1741962013
+      player_landdust_8x1_5: -151078975
+      player_landdust_8x1_6: 358783766
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
