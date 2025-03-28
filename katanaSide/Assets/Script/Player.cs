@@ -190,41 +190,51 @@ public class Player : MonoBehaviour
 
 
 
+    private const float GROUND_CHECK_DISTANCE = 0.7f;
+
+
+
 
 
 
     private void FixedUpdate()
     {
-        Debug.DrawRay(pRig2D.position, Vector3.down, new Color(0, 1, 0));
+        Debug.DrawRay(pRig2D.position, Vector3.down, new Color(0, GROUND_CHECK_DISTANCE, 0));
 
         //레이캐스트로 땅체크 
-        RaycastHit2D rayHit = Physics2D.Raycast(pRig2D.position, Vector3.down, 1, LayerMask.GetMask("Ground"));
+        RaycastHit2D rayHit = Physics2D.Raycast(pRig2D.position, Vector3.down, GROUND_CHECK_DISTANCE, LayerMask.GetMask("Ground"));
 
-        if(pRig2D.linearVelocityY < 0)
+        CheckGroundedState(rayHit);
+    }
+
+
+    void CheckGroundedState(RaycastHit2D rayHit)
+    {
+
+        bool isGrounded = rayHit.collider != null && rayHit.distance < GROUND_CHECK_DISTANCE;
+       
+        if (isGrounded)
         {
-            if(rayHit.collider != null)
+                pAnimator.SetBool("Jump", false);                
+        }
+        else
+        {
+            //떨어지고 있다
+            if (!isWall)
             {
-                if(rayHit.distance <0.7f)
-                {
-                    pAnimator.SetBool("Jump", false);
-                }
+                //그냥 떨어지는중
+                pAnimator.SetBool("Jump", true);
             }
             else
             {
-                //떨어지고 있다
-                if(!isWall)
-                {
-                    //그냥 떨어지는중
-                    pAnimator.SetBool("Jump", true);
-                }
-                else
-                {
-                    //벽타기
-                    pAnimator.SetBool("Grab", true);
-                }
+                //벽타기
+                pAnimator.SetBool("Grab", true);
             }
-        }
+        }   
+        
     }
+
+
 
 
 
