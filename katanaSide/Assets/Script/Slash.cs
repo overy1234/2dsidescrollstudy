@@ -1,3 +1,4 @@
+using Unity.Cinemachine;
 using UnityEngine;
 
 public class Slash : MonoBehaviour
@@ -71,11 +72,17 @@ public class Slash : MonoBehaviour
                 missileSprite.flipX = !missileSprite.flipX;
             }
         }
+
+
+        //적 처리
+        if(collision.CompareTag("Enemy"))
+        {
+            //적의 죽음 애니메이션 실행
+            ShootingEnemy enemy = collision.GetComponent<ShootingEnemy>();
+            if(enemy != null)
+            {
+                enemy.PlayDeathAnimation();
+            }
+        }
     }
-
-
-
-
-
-
 }

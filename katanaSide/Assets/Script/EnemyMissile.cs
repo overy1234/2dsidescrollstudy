@@ -27,15 +27,27 @@ public class EnemyMissile : MonoBehaviour
 
     void Update()
     {
-        transform.Translate(direction * speed * Time.deltaTime);
+        float timeScale = TimeController.Instance.GetTimeScale();
+        transform.Translate(direction * speed * Time.deltaTime* timeScale);
     }
 
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-         if(other.CompareTag("Player"))
+        if(other.CompareTag("Player"))
         {
             //여기에 플레이어 데미지 로직 추가
+            Destroy(gameObject);
+        }//적과 충돌했을때
+        else if(other.CompareTag("Enemy"))
+        {
+            ShootingEnemy enemy = other.GetComponent<ShootingEnemy>();
+            if(enemy != null)
+            {
+                enemy.PlayDeathAnimation();
+            }
+
+            //미사일 제거
             Destroy(gameObject);
         }
     }
